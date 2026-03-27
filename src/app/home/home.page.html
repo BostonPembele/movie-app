@@ -16,8 +16,11 @@
       </li>
     }
   </ul> -->
+
+  <!-- //Created a For loop to display all of the contents of the Api -->
 @for(movie of movies;track movie){
       <ion-card>
+        <!-- used{{object}} to display the specific item froom the array on the api -->
       <img src={{movie.Poster}} width="400px">
     <ion-card-header>
       <ion-card-title>{{movie.Yitle}}</ion-card-title>
